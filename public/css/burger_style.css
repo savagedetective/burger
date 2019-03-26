@@ -1,0 +1,18 @@
+.jumbotron {
+    background-image: url("/images/burgerLogo.jpg");
+    background-repeat: no-repeat;
+    background-position: 85%;
+    background-color: black;
+    font-family: 'Lobster', cursive;
+    color: #FFED5C;
+
+}
+
+#burgerLists {
+    margin-top: 30px;
+}
+
+#burgerLists li {
+    margin:10px;
+    list-style-type: none;
+}
