@@ -1,3 +1,20 @@
+#the-whole-thing {
+    background-color: #FFED5C;
+    height:100vh;
+}
+
+.col-sm-6 h2 {
+    background-color: #E7DE62;
+}
+
+.col-sm-6 ul li:nth-child(even) {
+    background: #E7DE62;
+  }
+
+  .col-sm-6 ul li:nth-child(odd) {
+    background: #F9FF6B;
+  }
+
 .jumbotron {
     background-image: url("/images/burgerLogo.jpg");
     background-repeat: no-repeat;
@@ -8,11 +25,35 @@
 
 }
 
-#burgerLists {
+#burger-lists {
     margin-top: 30px;
 }
 
-#burgerLists li {
+#burger-lists li {
     margin:10px;
     list-style-type: none;
+}
+
+#the-whole-thing h2 {
+    font-family: 'Francois One', sans-serif;
+}
+
+#add-burger-button {
+    font-family: 'Crete Round', serif;
+}
+
+.form-group label, ul {
+    font-family: 'Crete Round', serif;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li p {
+    font-size: 20px;
+}
+
+.button-holder {
+    padding-bottom: 8px;
 }
